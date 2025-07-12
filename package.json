@@ -1,0 +1,21 @@
+   {
+     "name": "express-loans-api",
+     "version": "1.0.0",
+     "main": "server.js",
+     "scripts": {
+       "start": "node server.js",
+       "dev": "nodemon server.js"
+     },
+     "dependencies": {
+       "express": "^4.x",
+       "jsonwebtoken": "^9.x",
+       "morgan": "^1.x",
+       "cors": "^2.x",
+       "express-rate-limit": "^6.x"
+     },
+     "devDependencies": {
+       "nodemon": "^2.x"
+     }
+   }
+
+   
